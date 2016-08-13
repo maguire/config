@@ -3,9 +3,6 @@
 3. Replace squid.conf
 
 
-
-
-
 diff /etc/squid3/squid.conf /etc/squid3/squid.conf.bak 
 1060c1060
 < http_access allow all
