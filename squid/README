@@ -1,6 +1,7 @@
 1. Launch Ubuntu EC2 Image
 2. sudo apt-get install squid
 3. Replace squid.conf
+4. sudo service restart squid3
 
 
 diff /etc/squid3/squid.conf /etc/squid3/squid.conf.bak 
