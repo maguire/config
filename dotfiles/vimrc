@@ -1,0 +1,12 @@
+set incsearch           " search as characters are entered
+
+syntax on
+
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
+augroup write_all
+    autocmd!
+    autocmd FileType cpp,python,yaml autocmd BufWritePre <buffer> %s/\s\+$//ge
+augroup END
